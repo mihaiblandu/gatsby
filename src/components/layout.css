@@ -1,3 +1,13 @@
+/* CSS variables */
+:root {
+  --mainBrown: #2d1e1f;
+  --mainYellow: rgb(255, 158, 9);
+  --mainGrey: #ece8dc;
+  --mainWhite: #fff;
+  --mainDark: #222;
+}
+
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -7,7 +17,23 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: var(--mainWhite);
+  color: var(--mainDark);
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif 
+  !important;
 }
+
+.text-yellow{
+  color: var(--mainYellow);
+}
+.cart-icon{
+
+  cursor: pointer;
+  color: var(--mainYellow);
+}
+
+
 article,
 aside,
 details,

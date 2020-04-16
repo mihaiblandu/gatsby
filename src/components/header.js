@@ -1,6 +1,9 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import {FaGulp} from "react-icons/fa"
+
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Header = ({ siteTitle }) => (
   <header
@@ -27,6 +30,8 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
+      <p><FaGulp size="10em"/></p>
+      <button className="btn btn-success">Nemo</button>
     </div>
   </header>
 )
