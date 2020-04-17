@@ -14,6 +14,12 @@ module.exports = {
       },
     },
     `gatsby-transformer-sharp`,
+    {
+      resolve: `gatsby-source-contentful`,
+      options: {
+        spaceId: 'k13g4nvcv9i9',
+        accessToken: 'hFziTM9lPn-Dr0vfP8yi0OJGO6vqr6_TPcJpTQ80yi8'             }
+    },
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
